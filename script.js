@@ -29,21 +29,25 @@ var generatePassword = function () {
   var passLength = prompt("password length? ¯\\_(ツ)_/¯");
  
   var wantnumbers = confirm("numeric characters? ¯\\_(ツ)_/¯");
+  // If user wants numbers in their password, the IF statement below will run.
   if (wantnumbers) {
     passbase += numbers;
   }
 
   var specChars = confirm("special characters? ¯\\_(ツ)_/¯");
+  // If user wants special characters in their password, the IF statement below will run.
   if (specChars) {
     passbase += specials;
   }
 
   var lowercase = confirm("lowercase characters? ¯\\_(ツ)_/¯");
+  // If user wants lowercase letters in their password, the IF statement below will run.
   if (lowercase) {
     passbase += lowers;
   }
 
   var uppercase = confirm("uppercase characters? ¯\\_(ツ)_/¯");
+  // If user wants uppercase characters in their password, the IF statement below will run.
   if (uppercase) {
     passbase += uppers;
   }
