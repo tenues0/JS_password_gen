@@ -28,24 +28,24 @@ var generateBtn = document.querySelector("#generate");
 console.log(passbase)
 var generatePassword = function () {
   // goal of function is to return password
-  var passLength = prompt("password length? insert shrug");
+  var passLength = prompt("password length? ¯\\_(ツ)_/¯");
   console.log(passbase)
-  var wantnumbers = confirm("numeric characters? insert shrug");
+  var wantnumbers = confirm("numeric characters? ¯\\_(ツ)_/¯");
   if (wantnumbers) {
     passbase += numbers;
   }
 
-  var specChars = confirm("special characters?");
+  var specChars = confirm("special characters? ¯\\_(ツ)_/¯");
   if (specChars) {
     passbase += specials;
   }
 
-  var lowercase = confirm("lowercase characters?");
+  var lowercase = confirm("lowercase characters? ¯\\_(ツ)_/¯");
   if (lowercase) {
     passbase += lowers;
   }
 
-  var uppercase = confirm("uppercase characters?");
+  var uppercase = confirm("uppercase characters? ¯\\_(ツ)_/¯");
   if (uppercase) {
     passbase += uppers;
   }
