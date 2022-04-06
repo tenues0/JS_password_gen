@@ -11,8 +11,6 @@ var theChosenOne = "" // soon to be new password
 // Assignment Code
 
 /*
-use alert(), confirm(), and prompt()
-think about data types
 
 Q's for person who wants the password:
 1) password length?
@@ -29,7 +27,7 @@ console.log(passbase)
 var generatePassword = function () {
   // goal of function is to return password
   var passLength = prompt("password length? ¯\\_(ツ)_/¯");
-  console.log(passbase)
+ 
   var wantnumbers = confirm("numeric characters? ¯\\_(ツ)_/¯");
   if (wantnumbers) {
     passbase += numbers;
