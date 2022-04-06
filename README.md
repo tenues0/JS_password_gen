@@ -2,7 +2,7 @@
 
 ## Link to the password generator:
 
-
+https://tenues0.github.io/JS_password_gen/
 
 ## Link to the github page for the password generator:
 
