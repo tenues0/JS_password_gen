@@ -25,9 +25,12 @@ Information requirements to generate a password
 
 4) If the user wants uppercase letters in the password.
 
+Once all the questions are answered the JavaScript code generates a random password and prints it to the screen.
+
 https://tenues0.github.io/JS_password_gen/
 
-Once all the questions are answered the JavaScript code generates a random password and prints it to the screen.
+![image](https://user-images.githubusercontent.com/95945750/172461350-85aaf798-adeb-46b8-824c-b9bd1faa00e2.png)
+
 ## Contributing
 
 N/A
@@ -78,4 +81,3 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org/>
-
